@@ -1,0 +1,13 @@
+1 - para criar o projeto do zero abra o terminal e de o seguinte comando:
+npm init enter em todas as informações
+
+2 - em seguida fazer a instalação do typescript com os comandos abaixo:
+npm install typescript
+npx tsc --init
+
+3 - Depois ir no arquivo tsconfig.json e vai tirar o comentario "moduleResolution"
+colocar o outDir : "/.dir" e rootDir: "./src"
+
+4 - Instalar o pacote das tipagens do TS 'npm install @type/node'
+
+5 - instalar o nodemom para rodar o projeto 'npm install --save-dev nodemon' e em seguida o comando 'npm install -D ts-node
